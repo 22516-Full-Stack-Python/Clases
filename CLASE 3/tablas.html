@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+<body>
+    <h1>Tablas en HTML</h1>
+    <h2>Tabla básica</h2>
+    <table border="1">
+        <tr>
+            <th>Curso</th>
+            <th>Horario</th>
+            <th>Profesor</th>
+        </tr>
+        <tr>
+            <td>Com 22516</td>
+            <td>14 a 15:30</td>
+            <td>Juan Pablo Nardone</td>
+        </tr>
+        <tr>
+            <td>Com 22517</td>
+            <td>16 a 17:30</td>
+            <td>Juan Pablo Nardone</td>
+        </tr>      
+
+    </table>
+
+    <h2>Propiedades Rowspan y Colspan</h2>
+    <table border="1">
+        <tr>
+            <th colspan="3">Cursos Codo a Codo</th>
+        </tr>
+        <tr>
+            <th>Curso</th>
+            <th>Horario</th>
+            <th>Profesor</th>
+        </tr>
+        <tr>
+            <td>Com 22516</td>
+            <td>14 a 15:30</td>
+            <td rowspan="3">Juan Pablo Nardone</td>
+        </tr>
+        <tr>
+            <td>Com 22517</td>
+            <td>16 a 17:30</td>
+            
+        </tr>
+        <tr>
+            <td>Com 22518</td>
+            <td>19 a 20:30</td>
+        </tr>      
+
+    </table>
+
+</body>
+</html>
