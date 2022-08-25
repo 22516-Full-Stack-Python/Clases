@@ -1,0 +1,36 @@
+*{
+    background-color: lightgreen;
+    font-family: Verdana;
+}
+
+h1{
+    color: white;
+    background-color: red;
+    padding: 10px;
+}
+
+h2{
+    color: blue;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+p{
+    background-color: lightcoral;
+    font-family: Arial;
+}
+
+/* selector de clase*/
+.parrafo{
+    font-family: 'Comic Sans MS';
+    font-weight: bold;
+    background-color: lightskyblue;
+
+}
+
+/*selector de id*/
+#recordatorio{
+    background-color: red;
+    color: black;
+    font-size: 25px;
+}
